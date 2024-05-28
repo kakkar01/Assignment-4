@@ -4,7 +4,7 @@ from tensorflow.keras import layers
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
-pip install python==2.10
+
 def define_dense_model_single_layer(input_length, activation_f='sigmoid', output_length=1):
     """Define a dense model with a single layer with the following parameters:
     input_length: the number of inputs
