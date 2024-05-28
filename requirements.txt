@@ -1,2 +1,2 @@
 tensorflow-cpu
-
+python_version >= 2.10
