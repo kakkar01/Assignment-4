@@ -61,5 +61,5 @@ def evaluate_mnist_model_single_digit(x_test, y_test, target_digit, model):
     Hint: use model.evaluate() to evaluate the model on the test data.
     """
     y_test = binarize_labels(y_test, target_digit)
-    loss, accuracy = None, None  ## change this.
+    loss, accuracy = model.evaluate(x_test, y_test, verbose=0)  ## change this.
     return loss, accuracy
